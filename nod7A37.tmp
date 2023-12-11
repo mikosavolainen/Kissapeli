@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://sx20kcs3eyu"]
+
+[ext_resource type="Texture2D" uid="uid://5snva7iootra" path="res://icon.svg" id="1_31rki"]
+[ext_resource type="Script" path="res://iconin.gd" id="2_1a1j0"]
+[ext_resource type="Texture2D" uid="uid://hqghrhyxko0h" path="res://Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg" id="3_3nq1s"]
+[ext_resource type="Script" path="res://Icon.gd" id="4_sjrot"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(-2, 1)
+metadata/_edit_horizontal_guides_ = [655.0, 644.0]
+metadata/_edit_vertical_guides_ = [1150.0]
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(5505, -915)
+scale = Vector2(9.26563, 8.51953)
+texture = ExtResource("1_31rki")
+
+[node name="Mc8kW4x9q3aRr3RkP5ImImg4417" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(577, 322.251)
+scale = Vector2(0.199306, 0.16914)
+texture = ExtResource("3_3nq1s")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(1134, 324)
+scale = Vector2(9.82422, 9.11523)
+script = ExtResource("2_1a1j0")
+
+[node name="Icon" type="Sprite2D" parent="CharacterBody2D"]
+scale = Vector2(0.120427, 0.129285)
+texture = ExtResource("1_31rki")
+script = ExtResource("4_sjrot")
