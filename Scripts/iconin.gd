@@ -30,7 +30,7 @@ func randomize_direction():
 	if direction.length() == 0:
 		direction = Vector2(1, 0)
 	time_passed = 0
-	speed = randf_range(100, 500)
+	speed = randf_range(250, 500)
 	move_time = randf_range(0.1, 2.0)
 
 func is_moving_towards_edge() -> bool:
