@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://5snva7iootra" path="res://icon.svg" id="1_31rki"]
 [ext_resource type="Script" path="res://iconin.gd" id="2_1a1j0"]
-[ext_resource type="Texture2D" uid="uid://hqghrhyxko0h" path="res://Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg" id="3_3nq1s"]
+[ext_resource type="Texture2D" uid="uid://csnqvpb0psgfs" path="res://background.jpg" id="2_ql4x7"]
 [ext_resource type="Texture2D" uid="uid://br4beulrvgcg4" path="res://lightTexture.png" id="4_ibu6b"]
 [ext_resource type="Texture2D" uid="uid://bexkgcuo620hj" path="res://CharacterSprite/frame_00_delay-0.05s.png" id="5_dhmxy"]
 [ext_resource type="Script" path="res://light.gd" id="5_veq58"]
@@ -116,9 +116,9 @@ texture = ExtResource("1_31rki")
 
 [node name="Mc8kW4x9q3aRr3RkP5ImImg4417" type="Sprite2D" parent="."]
 z_index = -1
-position = Vector2(577, 324.75)
-scale = Vector2(0.199306, 0.170442)
-texture = ExtResource("3_3nq1s")
+position = Vector2(574, 326)
+scale = Vector2(1.82571, 1.73227)
+texture = ExtResource("2_ql4x7")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 anchor_mode = 0
@@ -144,5 +144,5 @@ script = ExtResource("5_veq58")
 position = Vector2(-0.219482, 0)
 scale = Vector2(0.0977137, 0.1)
 sprite_frames = SubResource("SpriteFrames_t40va")
-frame_progress = 0.262499
+frame_progress = 0.219864
 script = ExtResource("27_x06o8")
