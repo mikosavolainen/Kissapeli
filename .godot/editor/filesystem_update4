@@ -1,3 +1,6 @@
 res://Scenes/node_2d.tscn
 res://Scripts/animationPlayer.gd
 res://Scenes/menu.tscn
+res://Scenes/musicButton.gd
+res://Scripts/globalScript.gd
+res://Scripts/musicButton.gd

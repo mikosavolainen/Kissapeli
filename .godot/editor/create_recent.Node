@@ -1,5 +1,6 @@
-AudioStreamPlayer2D
 Button
+CheckButton
+AudioStreamPlayer2D
 Sprite2D
 RichTextLabel
 SubViewport
