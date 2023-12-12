@@ -1,0 +1,10 @@
+AudioStreamPlayer2D
+Button
+Sprite2D
+RichTextLabel
+SubViewport
+TouchScreenButton
+MenuButton
+HTTPRequest
+PointLight2D
+DirectionalLight2D

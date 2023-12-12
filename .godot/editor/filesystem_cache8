@@ -1,0 +1,48 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1702403995
+icon.svg::CompressedTexture2D::2143650981108520542::1702381636::1702381636::1::::<><>::
+Readme.md::TextFile::-1::1702381636::0::1::::<><>::
+::res://deathAnimation/::1702403723
+__grey_die_000.png::CompressedTexture2D::7282164201910453642::1702381636::1702403723::1::::<><>::
+__grey_die_001.png::CompressedTexture2D::6276432902983449759::1702381636::1702403723::1::::<><>::
+__grey_die_002.png::CompressedTexture2D::4774365094818742367::1702381636::1702403723::1::::<><>::
+__grey_die_003.png::CompressedTexture2D::1385591242276113106::1702381636::1702403723::1::::<><>::
+__grey_die_004.png::CompressedTexture2D::8847942682321167866::1702381636::1702403723::1::::<><>::
+::res://Scenes/::1702403965
+menu.tscn::PackedScene::6077032849058078641::1702403965::0::1::::<><>::res://Scripts/menu.gd<>uid://crq4e20s0xia8::::res://Textures/pixil-frame-0 (13).png<>uid://cwd6488iic7nc::::res://Textures/Text/catchthemouse.png<>uid://c5mv1xs32ke13::::res://Textures/Text/play.png<>uid://pb818a0quw0c::::res://Sounds/fall.wav<>uid://il3dke01u2wo::::res://Sounds/catsong.mp3<>res://Scripts/statsWindow.gd<>uid://cd2la3hfurbea::::res://Textures/Light.png<>res://Scripts/moveLogo.gd<>uid://qpcxy5sgm0e::::res://Textures/Text/stats.png<>uid://cd8dwgt6r0pcl::::res://Textures/Text/accuracy.png<>uid://bce56deok2iaw::::res://Textures/Text/hits.png<>uid://pm2cd2gt2g0l::::res://Textures/Text/missed.png<>uid://cjlekoalnw8wb::::res://Textures/Text/totalclicks.png
+node_2d.tscn::PackedScene::38604835489965460::1702403965::0::1::::<><>::uid://crq4e20s0xia8::::res://Textures/pixil-frame-0 (13).png<>res://Scripts/movement.gd<>uid://br4beulrvgcg4::::res://Textures/lightTexture.png<>uid://nhsirfg6vlte::::res://CharacterSprite/__grey_walk_000.png<>uid://ddf0jb2lp64qv::::res://CharacterSprite/__grey_walk_001.png<>uid://b58n5nyhsdock::::res://CharacterSprite/__grey_walk_002.png<>uid://cu2yne1jtrwds::::res://CharacterSprite/__grey_walk_003.png<>uid://cw2whd26hrdq::::res://CharacterSprite/__grey_walk_004.png<>uid://c76n47p1251t5::::res://CharacterSprite/__grey_walk_005.png<>uid://cc2bu6nc1jmt4::::res://CharacterSprite/__grey_walk_006.png<>uid://dqo5vx7my11ft::::res://CharacterSprite/__grey_walk_007.png<>uid://db0sgevd3jxta::::res://deathAnimation/__grey_die_000.png<>uid://cvol6ypikxxx4::::res://deathAnimation/__grey_die_001.png<>uid://caa0diqhhpaih::::res://deathAnimation/__grey_die_002.png<>uid://t0gqrbeosj83::::res://deathAnimation/__grey_die_003.png<>uid://dycak8yc82xo1::::res://deathAnimation/__grey_die_004.png<>uid://ftc415wo4w6w::::res://Sounds/splat.mp3<>uid://il3dke01u2wo::::res://Sounds/catsong.mp3<>res://Scripts/animationPlayer.gd<>uid://cd2la3hfurbea::::res://Textures/Light.png<>uid://bv0ea6dt0olgu::::res://Textures/Text/menu.png<>res://Scripts/menuButton.gd
+::res://Scripts/::1702403893
+animationPlayer.gd::GDScript::-1::1702403893::0::1::::<>AnimatedSprite2D<>::
+getTouch.gd::GDScript::-1::1702381636::0::1::::<>TouchScreenButton<>::
+iconin.gd::GDScript::-1::1702388595::0::1::::<>CharacterBody2D<>::
+menu.gd::GDScript::-1::1702402989::0::1::::<>Control<>::
+menuButton.gd::GDScript::-1::1702381636::0::1::::<>Button<>::
+moveLogo.gd::GDScript::-1::1702401747::0::1::::<>Sprite2D<>::
+movement.gd::GDScript::-1::1702403582::0::1::::<>CharacterBody2D<>::
+statsWindow.gd::GDScript::-1::1702397277::0::1::::<>Sprite2D<>::
+::res://Sounds/::1702403834
+Cat Food Can Opening Sound - Feeding Time Cat Call.wav::AudioStreamWAV::3487663424858484990::1702381636::1702381636::1::::<><>::
+catsong.mp3::AudioStreamMP3::585924870162259782::1702400340::1702403799::1::::<><>::
+fall.wav::AudioStreamWAV::1056948858156000236::1702401515::1702403826::1::::<><>::
+splat.mp3::AudioStreamMP3::390342030496763156::1702401916::1702403834::1::::<><>::
+::res://Textures/::1702404167
+background.jpg::CompressedTexture2D::6064087227781530164::1702381636::1702381636::1::::<><>::
+icon.png::CompressedTexture2D::7035886450488491535::1702404167::1702404171::1::::<><>::
+Light.png::CompressedTexture2D::5039815466302352564::1702381636::1702381636::1::::<><>::
+lightTexture.png::CompressedTexture2D::3639566908836326225::1702381636::1702381636::1::::<><>::
+pixil-frame-0 (1).png::CompressedTexture2D::7313839209360005075::1702381636::1702381636::1::::<><>::
+pixil-frame-0 (13).png::CompressedTexture2D::6000851146866279689::1702381636::1702381636::1::::<><>::
+SpotLight.png::CompressedTexture2D::3303327120913617412::1702381636::1702381636::1::::<><>::
+::res://Textures/Text/::1702403890
+accuracy.png::CompressedTexture2D::5051754148552079619::1702381636::1702403889::1::::<><>::
+cat.png::CompressedTexture2D::3680505094290642816::1702381636::1702403889::1::::<><>::
+catchthemouse.png::CompressedTexture2D::6325124860107486860::1702396174::1702403890::1::::<><>::
+game.png::CompressedTexture2D::8266044821293728578::1702381636::1702403889::1::::<><>::
+hits.png::CompressedTexture2D::2536932915779248494::1702381636::1702403889::1::::<><>::
+menu.png::CompressedTexture2D::3912240345669853740::1702381636::1702403889::1::::<><>::
+missed.png::CompressedTexture2D::1079248317590548989::1702381636::1702403889::1::::<><>::
+play.png::CompressedTexture2D::6904601934217718304::1702402400::1702403889::1::::<><>::
+stats.png::CompressedTexture2D::33945617043989782::1702381636::1702403889::1::::<><>::
+total.png::CompressedTexture2D::7747292762001420936::1702381636::1702403889::1::::<><>::
+totalclicks.png::CompressedTexture2D::5427510577178233553::1702381636::1702403890::1::::<><>::
+x.png::CompressedTexture2D::1569308646778555714::1702381636::1702403889::1::::<><>::

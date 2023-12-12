@@ -1,0 +1,126 @@
+[gd_scene load_steps=17 format=3 uid="uid://cst03wxq5kd6x"]
+
+[ext_resource type="Script" path="res://Scripts/menu.gd" id="1_mi8ue"]
+[ext_resource type="Texture2D" uid="uid://crq4e20s0xia8" path="res://Textures/pixil-frame-0 (13).png" id="1_v2c0d"]
+[ext_resource type="Texture2D" uid="uid://cwd6488iic7nc" path="res://Textures/Text/catchthemouse.png" id="6_yvytc"]
+[ext_resource type="Texture2D" uid="uid://c5mv1xs32ke13" path="res://Textures/Text/play.png" id="8_r6bh5"]
+[ext_resource type="AudioStream" uid="uid://pb818a0quw0c" path="res://Sounds/fall.wav" id="8_wds0u"]
+[ext_resource type="AudioStream" uid="uid://il3dke01u2wo" path="res://Sounds/catsong.mp3" id="10_24hsr"]
+[ext_resource type="Script" path="res://Scripts/statsWindow.gd" id="11_0q6nl"]
+[ext_resource type="Texture2D" uid="uid://cd2la3hfurbea" path="res://Textures/Light.png" id="40_e4qna"]
+[ext_resource type="Script" path="res://Scripts/moveLogo.gd" id="41_v7obw"]
+[ext_resource type="Texture2D" uid="uid://qpcxy5sgm0e" path="res://Textures/Text/stats.png" id="44_jmk4g"]
+[ext_resource type="Texture2D" uid="uid://cd8dwgt6r0pcl" path="res://Textures/Text/accuracy.png" id="46_ur4hx"]
+[ext_resource type="Texture2D" uid="uid://bce56deok2iaw" path="res://Textures/Text/hits.png" id="47_21xrh"]
+[ext_resource type="Texture2D" uid="uid://pm2cd2gt2g0l" path="res://Textures/Text/missed.png" id="48_04a70"]
+[ext_resource type="Texture2D" uid="uid://cjlekoalnw8wb" path="res://Textures/Text/totalclicks.png" id="49_as17e"]
+
+[sub_resource type="GDScript" id="GDScript_ddmkd"]
+script/source = "extends AudioStreamPlayer2D
+
+
+
+"
+
+[sub_resource type="GDScript" id="GDScript_oejab"]
+script/source = "extends Button
+
+
+"
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mi8ue")
+
+[node name="backgroundMusicPlayer" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(757, -134)
+scale = Vector2(0.632444, 0.636445)
+stream = ExtResource("10_24hsr")
+autoplay = true
+script = SubResource("GDScript_ddmkd")
+
+[node name="backgroundSprite" type="Sprite2D" parent="."]
+modulate = Color(0.137255, 0.12549, 0.207843, 1)
+z_index = -1
+position = Vector2(575.393, 338.707)
+scale = Vector2(18.5521, 13.0059)
+texture = ExtResource("1_v2c0d")
+
+[node name="backgroundLight" type="PointLight2D" parent="."]
+position = Vector2(632, 640)
+scale = Vector2(6.77863, 2.07625)
+texture = ExtResource("40_e4qna")
+texture_scale = 0.1
+
+[node name="LOGO" type="Sprite2D" parent="."]
+light_mask = 0
+position = Vector2(757, -134)
+scale = Vector2(0.632444, 0.636445)
+texture = ExtResource("6_yvytc")
+script = ExtResource("41_v7obw")
+
+[node name="logoFallSFX" type="AudioStreamPlayer2D" parent="LOGO"]
+stream = ExtResource("8_wds0u")
+volume_db = 1.0
+
+[node name="playButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 469.0
+offset_top = 357.0
+offset_right = 669.0
+offset_bottom = 450.0
+icon = ExtResource("8_r6bh5")
+expand_icon = true
+script = SubResource("GDScript_oejab")
+
+[node name="statsButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 469.0
+offset_top = 470.0
+offset_right = 669.0
+offset_bottom = 550.0
+icon = ExtResource("44_jmk4g")
+expand_icon = true
+
+[node name="Stats" type="Sprite2D" parent="."]
+visible = false
+modulate = Color(1, 1, 0.788235, 1)
+self_modulate = Color(0.470588, 0, 0.266667, 1)
+light_mask = 0
+position = Vector2(576, 326)
+scale = Vector2(21.01, 13.39)
+texture = ExtResource("1_v2c0d")
+script = ExtResource("11_0q6nl")
+
+[node name="accuracy" type="Sprite2D" parent="Stats"]
+position = Vector2(-14.8473, -4.33954)
+scale = Vector2(0.00932687, 0.0159971)
+texture = ExtResource("46_ur4hx")
+
+[node name="hits" type="Sprite2D" parent="Stats"]
+position = Vector2(-11.5475, 1.34565)
+scale = Vector2(0.00932687, 0.0159971)
+texture = ExtResource("47_21xrh")
+
+[node name="missed" type="Sprite2D" parent="Stats"]
+position = Vector2(-12.8674, 6.85857)
+scale = Vector2(0.00932687, 0.0159971)
+texture = ExtResource("48_04a70")
+
+[node name="total clicks" type="Sprite2D" parent="Stats"]
+position = Vector2(-16.2221, 12.0269)
+scale = Vector2(0.00932687, 0.0159971)
+texture = ExtResource("49_as17e")
+
+[node name="STATS" type="Sprite2D" parent="Stats"]
+position = Vector2(-20.651, -15.4693)
+scale = Vector2(0.00932687, 0.0159971)
+texture = ExtResource("44_jmk4g")
+
+[connection signal="pressed" from="playButton" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="statsButton" to="Stats" method="_on_stats_button_pressed"]

@@ -1,0 +1,179 @@
+[gd_scene load_steps=21 format=3 uid="uid://sx20kcs3eyu"]
+
+[ext_resource type="Texture2D" uid="uid://crq4e20s0xia8" path="res://Textures/pixil-frame-0 (13).png" id="1_8wot1"]
+[ext_resource type="Script" path="res://Scenes/movement.gd" id="2_dpnyj"]
+[ext_resource type="Texture2D" uid="uid://br4beulrvgcg4" path="res://Textures/lightTexture.png" id="3_q2lag"]
+[ext_resource type="Script" path="res://Scripts/light.gd" id="4_vmxnf"]
+[ext_resource type="Texture2D" uid="uid://nhsirfg6vlte" path="res://CharacterSprite/__grey_walk_000.png" id="5_p01wg"]
+[ext_resource type="Texture2D" uid="uid://ddf0jb2lp64qv" path="res://CharacterSprite/__grey_walk_001.png" id="6_3haws"]
+[ext_resource type="Texture2D" uid="uid://b58n5nyhsdock" path="res://CharacterSprite/__grey_walk_002.png" id="7_7q5cp"]
+[ext_resource type="Texture2D" uid="uid://cu2yne1jtrwds" path="res://CharacterSprite/__grey_walk_003.png" id="8_acsq1"]
+[ext_resource type="Texture2D" uid="uid://cw2whd26hrdq" path="res://CharacterSprite/__grey_walk_004.png" id="9_cl7k2"]
+[ext_resource type="Texture2D" uid="uid://c76n47p1251t5" path="res://CharacterSprite/__grey_walk_005.png" id="10_0jtti"]
+[ext_resource type="Texture2D" uid="uid://cc2bu6nc1jmt4" path="res://CharacterSprite/__grey_walk_006.png" id="11_gegoy"]
+[ext_resource type="Texture2D" uid="uid://dqo5vx7my11ft" path="res://CharacterSprite/__grey_walk_007.png" id="12_x03x2"]
+[ext_resource type="Script" path="res://Scripts/animationPlayer.gd" id="40_ntco8"]
+[ext_resource type="AudioStream" uid="uid://bpxpko7osexis" path="res://Sounds/Cat Food Can Opening Sound - Feeding Time Cat Call.wav" id="41_j8umh"]
+[ext_resource type="Texture2D" uid="uid://cd2la3hfurbea" path="res://Textures/Light.png" id="42_frnie"]
+[ext_resource type="Texture2D" uid="uid://bv0ea6dt0olgu" path="res://Textures/menu.png" id="43_y8dyb"]
+[ext_resource type="Script" path="res://Scripts/menuButton.gd" id="44_0cj3y"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fkbco"]
+radius = 8.04808
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_t40va"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_p01wg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_3haws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_7q5cp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_acsq1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_cl7k2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_0jtti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_gegoy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_x03x2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}],
+"loop": true,
+"name": &"explosion",
+"speed": 18.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_u5rij"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(-2, 1)
+
+[node name="background" type="Sprite2D" parent="."]
+modulate = Color(0.678431, 0.054902, 0.533333, 1)
+z_index = -1
+texture_repeat = 2
+position = Vector2(589, 304)
+scale = Vector2(33.34, 15.74)
+texture = ExtResource("1_8wot1")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(1134, 324)
+scale = Vector2(9.82422, 9.11523)
+script = ExtResource("2_dpnyj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CircleShape2D_fkbco")
+
+[node name="PointLight2D" type="PointLight2D" parent="CharacterBody2D"]
+position = Vector2(0.916077, 0)
+scale = Vector2(0.193261, 0.286339)
+energy = 0.71
+texture = ExtResource("3_q2lag")
+texture_scale = 0.1
+script = ExtResource("4_vmxnf")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+rotation = 1.99491
+scale = Vector2(0.132704, 0.138565)
+sprite_frames = SubResource("SpriteFrames_t40va")
+script = ExtResource("40_ntco8")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CharacterBody2D/AnimatedSprite2D"]
+stream = ExtResource("41_j8umh")
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="CharacterBody2D/AnimatedSprite2D"]
+scale = Vector2(6.651, 6.5)
+shape = SubResource("CircleShape2D_u5rij")
+
+[node name="Light" type="PointLight2D" parent="."]
+position = Vector2(563, 349)
+scale = Vector2(6.77863, 2.07625)
+texture = ExtResource("42_frnie")
+texture_scale = 0.1
+
+[node name="Button" type="Button" parent="."]
+offset_right = 105.0
+offset_bottom = 43.0
+icon = ExtResource("43_y8dyb")
+expand_icon = true
+script = ExtResource("44_0cj3y")
+
+[connection signal="pressed" from="CharacterBody2D/AnimatedSprite2D/TouchScreenButton" to="CharacterBody2D/AnimatedSprite2D" method="_on_touch_screen_button_pressed"]
