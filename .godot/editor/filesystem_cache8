@@ -1,0 +1,72 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1702378989
+icon.svg::CompressedTexture2D::2143650981108520542::1702366194::1702366216::1::::<><>::
+Readme.md::TextFile::-1::1702366194::0::1::::<><>::
+::res://CharacterSprite/::1702366217
+frame_00_delay-0.05s.png::CompressedTexture2D::2715274767901100771::1702366191::1702366216::1::::<><>::
+frame_01_delay-0.05s.png::CompressedTexture2D::8364142293763150281::1702366191::1702366216::1::::<><>::
+frame_02_delay-0.05s.png::CompressedTexture2D::817149502471016908::1702366191::1702366216::1::::<><>::
+frame_03_delay-0.05s.png::CompressedTexture2D::1471682192310478737::1702366191::1702366216::1::::<><>::
+frame_04_delay-0.05s.png::CompressedTexture2D::7913619137745106225::1702366191::1702366216::1::::<><>::
+frame_05_delay-0.05s.png::CompressedTexture2D::6919115047836942885::1702366191::1702366216::1::::<><>::
+frame_06_delay-0.05s.png::CompressedTexture2D::8142141274332529260::1702366191::1702366216::1::::<><>::
+frame_07_delay-0.05s.png::CompressedTexture2D::5914785439273796487::1702366191::1702366216::1::::<><>::
+frame_08_delay-0.05s.png::CompressedTexture2D::924572282958027511::1702366191::1702366216::1::::<><>::
+frame_09_delay-0.05s.png::CompressedTexture2D::8272313945122909188::1702366191::1702366216::1::::<><>::
+frame_10_delay-0.05s.png::CompressedTexture2D::2758236281558289948::1702366192::1702366216::1::::<><>::
+frame_11_delay-0.05s.png::CompressedTexture2D::4473039506584913513::1702366192::1702366216::1::::<><>::
+frame_12_delay-0.05s.png::CompressedTexture2D::3237660936566612458::1702366192::1702366216::1::::<><>::
+frame_13_delay-0.05s.png::CompressedTexture2D::8237932143687901093::1702366192::1702366217::1::::<><>::
+frame_14_delay-0.05s.png::CompressedTexture2D::2602496325360206528::1702366192::1702366217::1::::<><>::
+frame_15_delay-0.05s.png::CompressedTexture2D::3827290618882775351::1702366192::1702366217::1::::<><>::
+frame_16_delay-0.05s.png::CompressedTexture2D::6162088380005568803::1702366192::1702366217::1::::<><>::
+frame_17_delay-0.05s.png::CompressedTexture2D::5347289630655093405::1702366192::1702366217::1::::<><>::
+frame_18_delay-0.05s.png::CompressedTexture2D::4002556430774512435::1702366192::1702366217::1::::<><>::
+frame_19_delay-0.05s.png::CompressedTexture2D::5586637585446079527::1702366192::1702366217::1::::<><>::
+frame_20_delay-0.05s.png::CompressedTexture2D::4061678097442801189::1702366192::1702366215::1::::<><>::
+frame_21_delay-0.05s.png::CompressedTexture2D::8190360242601949963::1702366192::1702366215::1::::<><>::
+::res://explosionAnimation/::1702366216
+pixil-frame-0 (1).png::CompressedTexture2D::550246165592424681::1702366192::1702366215::1::::<><>::
+pixil-frame-0 (2).png::CompressedTexture2D::6576260248237436652::1702366192::1702366215::1::::<><>::
+pixil-frame-0 (3).png::CompressedTexture2D::4397484065670803302::1702366193::1702366215::1::::<><>::
+pixil-frame-0 (4).png::CompressedTexture2D::4106611904767467332::1702366193::1702366215::1::::<><>::
+pixil-frame-0 (5).png::CompressedTexture2D::6321769997444305408::1702366193::1702366215::1::::<><>::
+pixil-frame-0 (6).png::CompressedTexture2D::1508218809700287386::1702366193::1702366215::1::::<><>::
+pixil-frame-0 (7).png::CompressedTexture2D::6308211219284776427::1702366193::1702366215::1::::<><>::
+pixil-frame-0 (8).png::CompressedTexture2D::6694826699019431053::1702366193::1702366215::1::::<><>::
+pixil-frame-0 (9).png::CompressedTexture2D::6503406924939907993::1702366193::1702366216::1::::<><>::
+pixil-frame-0 (10).png::CompressedTexture2D::727065877239334603::1702366192::1702366216::1::::<><>::
+pixil-frame-0 (11).png::CompressedTexture2D::1647547114662631250::1702366192::1702366216::1::::<><>::
+pixil-frame-0 (12).png::CompressedTexture2D::213732239038889176::1702366192::1702366216::1::::<><>::
+pixil-frame-0.png::CompressedTexture2D::1158698455188080632::1702366193::1702366216::1::::<><>::
+::res://Scenes/::1702378801
+menu.tscn::PackedScene::6077032849058078641::1702378801::0::1::::<><>::uid://crq4e20s0xia8::::res://Textures/pixil-frame-0 (13).png<>uid://bexkgcuo620hj::::res://CharacterSprite/frame_00_delay-0.05s.png<>uid://drfwg4agjxhiv::::res://CharacterSprite/frame_01_delay-0.05s.png<>uid://lv3lk4bgsadw::::res://CharacterSprite/frame_02_delay-0.05s.png<>uid://u75njv0v4ymb::::res://CharacterSprite/frame_03_delay-0.05s.png<>uid://dk0ofetcwtyrx::::res://CharacterSprite/frame_04_delay-0.05s.png<>uid://c5tw2w6gxi6o4::::res://CharacterSprite/frame_05_delay-0.05s.png<>uid://doad43bywtw73::::res://CharacterSprite/frame_06_delay-0.05s.png<>uid://cqjfwf0e8cpkx::::res://CharacterSprite/frame_07_delay-0.05s.png<>uid://nf4tnny60qfv::::res://CharacterSprite/frame_08_delay-0.05s.png<>uid://dp4f2jg2aj4v5::::res://CharacterSprite/frame_09_delay-0.05s.png<>uid://bfkd0pl7it53u::::res://CharacterSprite/frame_10_delay-0.05s.png<>uid://b4y1kpcnho506::::res://CharacterSprite/frame_11_delay-0.05s.png<>uid://bmel2j2jme7x3::::res://CharacterSprite/frame_12_delay-0.05s.png<>uid://dpmrsk5fm6j2t::::res://CharacterSprite/frame_13_delay-0.05s.png<>uid://bdcwy716whoxc::::res://CharacterSprite/frame_14_delay-0.05s.png<>uid://bur76gokgry20::::res://CharacterSprite/frame_15_delay-0.05s.png<>uid://ct17xv2dt2x6b::::res://CharacterSprite/frame_16_delay-0.05s.png<>uid://cigjcxj057838::::res://CharacterSprite/frame_17_delay-0.05s.png<>uid://bxa4rwxxxctcd::::res://CharacterSprite/frame_18_delay-0.05s.png<>uid://cluhdtfvfs70v::::res://CharacterSprite/frame_19_delay-0.05s.png<>uid://bx4rilbo53i3n::::res://CharacterSprite/frame_20_delay-0.05s.png<>uid://doxqbijksfd60::::res://CharacterSprite/frame_21_delay-0.05s.png<>uid://qrjug8fbj6rc::::res://explosionAnimation/pixil-frame-0.png<>uid://h3sqd5ltws78::::res://explosionAnimation/pixil-frame-0 (1).png<>uid://c0xubst0ai0om::::res://explosionAnimation/pixil-frame-0 (2).png<>uid://b3wf6ju4srghy::::res://explosionAnimation/pixil-frame-0 (3).png<>uid://byrjkeub0hpqa::::res://explosionAnimation/pixil-frame-0 (4).png<>uid://cwckvmigb05sm::::res://explosionAnimation/pixil-frame-0 (5).png<>uid://vque424a5thq::::res://explosionAnimation/pixil-frame-0 (6).png<>uid://cv40k1u5f016n::::res://explosionAnimation/pixil-frame-0 (7).png<>uid://c2na22fg5yuin::::res://explosionAnimation/pixil-frame-0 (8).png<>uid://cywkfrfc64len::::res://explosionAnimation/pixil-frame-0 (9).png<>uid://kmgw0do0c7fb::::res://explosionAnimation/pixil-frame-0 (10).png<>uid://xqc4iqah3yt3::::res://explosionAnimation/pixil-frame-0 (11).png<>res://Scripts/playButton.gd<>uid://dbseynpaxrnc::::res://explosionAnimation/pixil-frame-0 (12).png<>uid://bpxpko7osexis::::res://Sounds/Cat Food Can Opening Sound - Feeding Time Cat Call.wav<>uid://cd2la3hfurbea::::res://Textures/Light.png<>uid://dcg44l4ypdocp::::res://Textures/pixil-frame-0 (1).png<>res://Scripts/moveLogo.gd<>uid://bso4m7vxeoyj5::::res://Textures/cat.png<>uid://dp1esyny7ympu::::res://Textures/game.png<>uid://qpcxy5sgm0e::::res://Textures/stats.png<>res://Scripts/menuButton.gd
+node_2d.tscn::PackedScene::38604835489965460::1702378801::0::1::::<><>::uid://crq4e20s0xia8::::res://Textures/pixil-frame-0 (13).png<>res://Scripts/iconin.gd<>uid://br4beulrvgcg4::::res://Textures/lightTexture.png<>res://Scripts/light.gd<>uid://bexkgcuo620hj::::res://CharacterSprite/frame_00_delay-0.05s.png<>uid://drfwg4agjxhiv::::res://CharacterSprite/frame_01_delay-0.05s.png<>uid://lv3lk4bgsadw::::res://CharacterSprite/frame_02_delay-0.05s.png<>uid://u75njv0v4ymb::::res://CharacterSprite/frame_03_delay-0.05s.png<>uid://dk0ofetcwtyrx::::res://CharacterSprite/frame_04_delay-0.05s.png<>uid://c5tw2w6gxi6o4::::res://CharacterSprite/frame_05_delay-0.05s.png<>uid://doad43bywtw73::::res://CharacterSprite/frame_06_delay-0.05s.png<>uid://cqjfwf0e8cpkx::::res://CharacterSprite/frame_07_delay-0.05s.png<>uid://nf4tnny60qfv::::res://CharacterSprite/frame_08_delay-0.05s.png<>uid://dp4f2jg2aj4v5::::res://CharacterSprite/frame_09_delay-0.05s.png<>uid://bfkd0pl7it53u::::res://CharacterSprite/frame_10_delay-0.05s.png<>uid://b4y1kpcnho506::::res://CharacterSprite/frame_11_delay-0.05s.png<>uid://bmel2j2jme7x3::::res://CharacterSprite/frame_12_delay-0.05s.png<>uid://dpmrsk5fm6j2t::::res://CharacterSprite/frame_13_delay-0.05s.png<>uid://bdcwy716whoxc::::res://CharacterSprite/frame_14_delay-0.05s.png<>uid://bur76gokgry20::::res://CharacterSprite/frame_15_delay-0.05s.png<>uid://ct17xv2dt2x6b::::res://CharacterSprite/frame_16_delay-0.05s.png<>uid://cigjcxj057838::::res://CharacterSprite/frame_17_delay-0.05s.png<>uid://bxa4rwxxxctcd::::res://CharacterSprite/frame_18_delay-0.05s.png<>uid://cluhdtfvfs70v::::res://CharacterSprite/frame_19_delay-0.05s.png<>uid://bx4rilbo53i3n::::res://CharacterSprite/frame_20_delay-0.05s.png<>uid://doxqbijksfd60::::res://CharacterSprite/frame_21_delay-0.05s.png<>uid://qrjug8fbj6rc::::res://explosionAnimation/pixil-frame-0.png<>uid://h3sqd5ltws78::::res://explosionAnimation/pixil-frame-0 (1).png<>uid://c0xubst0ai0om::::res://explosionAnimation/pixil-frame-0 (2).png<>uid://b3wf6ju4srghy::::res://explosionAnimation/pixil-frame-0 (3).png<>uid://byrjkeub0hpqa::::res://explosionAnimation/pixil-frame-0 (4).png<>uid://cwckvmigb05sm::::res://explosionAnimation/pixil-frame-0 (5).png<>uid://vque424a5thq::::res://explosionAnimation/pixil-frame-0 (6).png<>uid://cv40k1u5f016n::::res://explosionAnimation/pixil-frame-0 (7).png<>uid://c2na22fg5yuin::::res://explosionAnimation/pixil-frame-0 (8).png<>uid://cywkfrfc64len::::res://explosionAnimation/pixil-frame-0 (9).png<>uid://kmgw0do0c7fb::::res://explosionAnimation/pixil-frame-0 (10).png<>uid://xqc4iqah3yt3::::res://explosionAnimation/pixil-frame-0 (11).png<>uid://dbseynpaxrnc::::res://explosionAnimation/pixil-frame-0 (12).png<>res://Scripts/animationPlayer.gd<>uid://bpxpko7osexis::::res://Sounds/Cat Food Can Opening Sound - Feeding Time Cat Call.wav<>uid://cd2la3hfurbea::::res://Textures/Light.png<>uid://bv0ea6dt0olgu::::res://Textures/menu.png<>res://Scripts/menuButton.gd
+::res://Scripts/::1702377780
+animationPlayer.gd::GDScript::-1::1702372141::0::1::::<>AnimatedSprite2D<>::
+getTouch.gd::GDScript::-1::1702371402::0::1::::<>TouchScreenButton<>::
+iconin.gd::GDScript::-1::1702368601::0::1::::<>CharacterBody2D<>::
+light.gd::GDScript::-1::1702367940::0::1::::<>PointLight2D<>::
+menuButton.gd::GDScript::-1::1702377603::0::1::::<>Button<>::
+moveLogo.gd::GDScript::-1::1702376476::0::1::::<>Sprite2D<>::
+playButton.gd::GDScript::-1::1702366193::0::1::::<>AnimatedSprite2D<>::
+::res://Sounds/::1702366217
+Cat Food Can Opening Sound - Feeding Time Cat Call.wav::AudioStreamWAV::3487663424858484990::1702366193::1702366217::1::::<><>::
+::res://Textures/::1702379333
+accuracy.png::CompressedTexture2D::5051754148552079619::1702378779::1702378788::1::::<><>::
+background.jpg::CompressedTexture2D::6064087227781530164::1702366194::1702366216::1::::<><>::
+cat.png::CompressedTexture2D::3680505094290642816::1702375755::1702375828::1::::<><>::
+game.png::CompressedTexture2D::8266044821293728578::1702375821::1702375834::1::::<><>::
+hits.png::CompressedTexture2D::2536932915779248494::1702378982::1702378990::1::::<><>::
+icon.png::CompressedTexture2D::7035886450488491535::1702376838::1702376838::1::::<><>::
+Light.png::CompressedTexture2D::5039815466302352564::1702366978::1702366989::1::::<><>::
+lightTexture.png::CompressedTexture2D::3639566908836326225::1702366194::1702366216::1::::<><>::
+menu.png::CompressedTexture2D::3912240345669853740::1702377318::1702377319::1::::<><>::
+missed.png::CompressedTexture2D::1079248317590548989::1702378852::1702378853::1::::<><>::
+pixil-frame-0 (1).png::CompressedTexture2D::7313839209360005075::1702366194::1702366216::1::::<><>::
+pixil-frame-0 (13).png::CompressedTexture2D::6000851146866279689::1702366262::1702366266::1::::<><>::
+SpotLight.png::CompressedTexture2D::3303327120913617412::1702366774::1702366774::1::::<><>::
+stats.png::CompressedTexture2D::33945617043989782::1702377775::1702377781::1::::<><>::
+total.png::CompressedTexture2D::7747292762001420936::1702378852::1702378853::1::::<><>::
+totalclicks.png::CompressedTexture2D::5427510577178233553::1702379059::1702379061::1::::<><>::
+x.png::CompressedTexture2D::1569308646778555714::1702379333::1702379334::1::::<><>::
