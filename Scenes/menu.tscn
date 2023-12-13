@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://Scripts/menu.gd" id="1_mi8ue"]
 [ext_resource type="Texture2D" uid="uid://crq4e20s0xia8" path="res://Textures/pixil-frame-0 (13).png" id="1_v2c0d"]
 [ext_resource type="Texture2D" uid="uid://cg0rfgb6ud4ow" path="res://music on.png" id="3_pp7wk"]
-[ext_resource type="Texture2D" uid="uid://cwd6488iic7nc" path="res://Textures/Text/catchthemouse.png" id="6_yvytc"]
+[ext_resource type="Texture2D" uid="uid://3442uexmqlis" path="res://Scenes/catchthemouse.png" id="7_n7sos"]
 [ext_resource type="Texture2D" uid="uid://c5mv1xs32ke13" path="res://Textures/Text/play.png" id="8_r6bh5"]
 [ext_resource type="AudioStream" uid="uid://pb818a0quw0c" path="res://Sounds/fall.wav" id="8_wds0u"]
 [ext_resource type="AudioStream" uid="uid://il3dke01u2wo" path="res://Sounds/catsong.mp3" id="10_24hsr"]
@@ -99,9 +99,9 @@ texture_scale = 0.1
 
 [node name="LOGO" type="Sprite2D" parent="."]
 light_mask = 0
-position = Vector2(757, -134)
+position = Vector2(575, -142)
 scale = Vector2(0.632444, 0.636445)
-texture = ExtResource("6_yvytc")
+texture = ExtResource("7_n7sos")
 script = ExtResource("41_v7obw")
 
 [node name="logoFallSFX" type="AudioStreamPlayer2D" parent="LOGO"]

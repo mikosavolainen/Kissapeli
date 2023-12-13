@@ -235,7 +235,6 @@ visibility_layer = 495
 rotation = 2.03854
 scale = Vector2(0.065, 0.068)
 sprite_frames = SubResource("SpriteFrames_t40va")
-animation = &"explosion"
 script = ExtResource("40_ntco8")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CharacterBody2D/AnimatedSprite2D"]

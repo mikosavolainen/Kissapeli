@@ -19,6 +19,10 @@ config/icon="res://Textures/icon.png"
 
 global="*res://Scripts/globalScript.gd"
 
+[debug]
+
+settings=false
+
 [display]
 
 window/stretch/mode="viewport"
