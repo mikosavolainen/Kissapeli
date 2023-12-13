@@ -1,0 +1,266 @@
+[gd_scene load_steps=27 format=3 uid="uid://sx20kcs3eyu"]
+
+[ext_resource type="Texture2D" uid="uid://crq4e20s0xia8" path="res://Textures/pixil-frame-0 (13).png" id="1_8wot1"]
+[ext_resource type="Script" path="res://Scripts/movement.gd" id="2_dpnyj"]
+[ext_resource type="Texture2D" uid="uid://br4beulrvgcg4" path="res://Textures/lightTexture.png" id="3_q2lag"]
+[ext_resource type="Texture2D" uid="uid://nhsirfg6vlte" path="res://CharacterSprite/__grey_walk_000.png" id="5_p01wg"]
+[ext_resource type="Texture2D" uid="uid://ddf0jb2lp64qv" path="res://CharacterSprite/__grey_walk_001.png" id="6_3haws"]
+[ext_resource type="Texture2D" uid="uid://b58n5nyhsdock" path="res://CharacterSprite/__grey_walk_002.png" id="7_7q5cp"]
+[ext_resource type="Texture2D" uid="uid://cu2yne1jtrwds" path="res://CharacterSprite/__grey_walk_003.png" id="8_acsq1"]
+[ext_resource type="Texture2D" uid="uid://cw2whd26hrdq" path="res://CharacterSprite/__grey_walk_004.png" id="9_cl7k2"]
+[ext_resource type="Texture2D" uid="uid://c76n47p1251t5" path="res://CharacterSprite/__grey_walk_005.png" id="10_0jtti"]
+[ext_resource type="Texture2D" uid="uid://cc2bu6nc1jmt4" path="res://CharacterSprite/__grey_walk_006.png" id="11_gegoy"]
+[ext_resource type="Texture2D" uid="uid://dqo5vx7my11ft" path="res://CharacterSprite/__grey_walk_007.png" id="12_x03x2"]
+[ext_resource type="Texture2D" uid="uid://db0sgevd3jxta" path="res://deathAnimation/__grey_die_000.png" id="13_n2jf7"]
+[ext_resource type="Texture2D" uid="uid://cvol6ypikxxx4" path="res://deathAnimation/__grey_die_001.png" id="14_iwu0u"]
+[ext_resource type="Texture2D" uid="uid://caa0diqhhpaih" path="res://deathAnimation/__grey_die_002.png" id="15_7qj2g"]
+[ext_resource type="Texture2D" uid="uid://t0gqrbeosj83" path="res://deathAnimation/__grey_die_003.png" id="16_j6v2m"]
+[ext_resource type="Texture2D" uid="uid://dycak8yc82xo1" path="res://deathAnimation/__grey_die_004.png" id="17_b46i3"]
+[ext_resource type="AudioStream" uid="uid://ftc415wo4w6w" path="res://Sounds/splat.mp3" id="18_5g3ev"]
+[ext_resource type="AudioStream" uid="uid://il3dke01u2wo" path="res://Sounds/catsong.mp3" id="22_bx841"]
+[ext_resource type="Script" path="res://Scripts/animationPlayer.gd" id="40_ntco8"]
+[ext_resource type="Texture2D" uid="uid://cd2la3hfurbea" path="res://Textures/Light.png" id="42_frnie"]
+[ext_resource type="Texture2D" uid="uid://bv0ea6dt0olgu" path="res://Textures/Text/menu.png" id="43_y8dyb"]
+[ext_resource type="Script" path="res://Scripts/menuButton.gd" id="44_0cj3y"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fkbco"]
+radius = 8.04808
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_t40va"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_p01wg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_3haws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_7q5cp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_acsq1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_cl7k2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_0jtti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_gegoy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_x03x2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_n2jf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_iwu0u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_7qj2g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_j6v2m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b46i3")
+}],
+"loop": true,
+"name": &"explosion",
+"speed": 18.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_og11c"]
+
+[sub_resource type="GDScript" id="GDScript_ddmkd"]
+script/source = "extends AudioStreamPlayer2D
+
+func _process(delta):
+	if global.music == true:
+		volume_db = 0
+	else:
+		volume_db = -80
+
+
+"
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(-2, 1)
+
+[node name="background" type="Sprite2D" parent="."]
+modulate = Color(0.231373, 0, 0.223529, 1)
+z_index = -1
+texture_repeat = 2
+position = Vector2(589, 304)
+scale = Vector2(33.34, 15.74)
+texture = ExtResource("1_8wot1")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(1134, 324)
+scale = Vector2(9.82422, 9.11523)
+script = ExtResource("2_dpnyj")
+
+[node name="PointLight2D2" type="PointLight2D" parent="CharacterBody2D"]
+light_mask = 0
+visibility_layer = 0
+position = Vector2(2.46404, 4.07545)
+rotation = 0.427606
+scale = Vector2(0.282604, 0.338743)
+energy = 1.24
+texture = ExtResource("3_q2lag")
+texture_scale = 0.2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CircleShape2D_fkbco")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+light_mask = 6
+visibility_layer = 495
+rotation = 2.03854
+scale = Vector2(0.065, 0.068)
+sprite_frames = SubResource("SpriteFrames_t40va")
+script = ExtResource("40_ntco8")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CharacterBody2D/AnimatedSprite2D"]
+stream = ExtResource("18_5g3ev")
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="CharacterBody2D/AnimatedSprite2D"]
+scale = Vector2(11, 17)
+shape = SubResource("CapsuleShape2D_og11c")
+
+[node name="Light" type="PointLight2D" parent="."]
+position = Vector2(585, 632)
+scale = Vector2(6.77863, 2.07625)
+texture = ExtResource("42_frnie")
+texture_scale = 0.1
+
+[node name="Button" type="Button" parent="."]
+offset_right = 105.0
+offset_bottom = 43.0
+icon = ExtResource("43_y8dyb")
+flat = true
+expand_icon = true
+script = ExtResource("44_0cj3y")
+
+[node name="backgroundMusicPlayer" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("22_bx841")
+autoplay = true
+script = SubResource("GDScript_ddmkd")
+
+[connection signal="pressed" from="CharacterBody2D/AnimatedSprite2D/TouchScreenButton" to="CharacterBody2D/AnimatedSprite2D" method="_on_touch_screen_button_pressed"]
